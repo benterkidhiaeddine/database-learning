@@ -1,0 +1,2 @@
+ALTER TABLE Movies
+  ADD COLUMN Language TEXT DEFAULT "English";
