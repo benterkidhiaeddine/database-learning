@@ -4,7 +4,7 @@ CREATE TABLE IF NOT EXISTS SQL_Adresse (
     nom_de_rue VARCHAR(50) NOT NULL, 
     nom_de_ville VARCHAR(50) NOT NULL, 
     code_postal INT(5) UNSIGNED ZEROFILL NOT NULL ,
-    caractère ENUM("t", "b") NULL,
+    caractère ENUM("t", "b" , " ") NULL,
     PRIMARY KEY (numéro)
 ) ENGINE=InnoDB;
 

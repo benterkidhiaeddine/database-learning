@@ -1,0 +1,1 @@
+ALTER TABLE SQL_Etudiant DROP age ;

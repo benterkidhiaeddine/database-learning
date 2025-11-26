@@ -1,0 +1,1 @@
+ALTER TABLE SQL_Adresse MODIFY nom_de_ville VARCHAR(55);
