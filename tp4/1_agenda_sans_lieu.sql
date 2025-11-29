@@ -1,0 +1,2 @@
+SELECT * FROM Agenda 
+WHERE lieu IS NULL;
